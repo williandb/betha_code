@@ -4,7 +4,7 @@ Implemente um programa para calcular a área de um trapézio, onde: h = altura b
 import java.util.Scanner;
 public class Desafio02Exercicio05 {
     public static void main(String[] args) {
-        double areaTrapezio = 0.00;
+        double areaTrapezio;
         Scanner s = new Scanner(System.in);
 
         System.out.print("Insira a altura do Trapézio: ");

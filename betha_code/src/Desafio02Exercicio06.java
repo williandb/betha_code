@@ -3,7 +3,7 @@ Faça um programa que imprima os quadrados dos números inteiros ímpares entre 
 */
 public class Desafio02Exercicio06 {
     public static void main(String[] args) {
-        int quadrado = 0;
+        int quadrado;
         for(int i = 15; i <= 35; i++){
             if( i % 2 == 0){
                 continue;
