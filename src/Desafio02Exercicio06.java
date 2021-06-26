@@ -10,7 +10,6 @@ public class Desafio02Exercicio06 {
             }
             quadrado = i * i;
             System.out.println("O quadrado de "+i+" é "+ quadrado);
-
         }
     }
 }

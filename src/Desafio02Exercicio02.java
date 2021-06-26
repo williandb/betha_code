@@ -4,7 +4,6 @@ Escreva um laço while que execute 20 vezes, imprimindo o valor da variável x q
 public class Desafio02Exercicio02 {
     public static void main(String[] args) {
         int x = 10;
-        //int i = 0;
         while(x < 30){
             System.out.println("Item: "+x);
             x++;
