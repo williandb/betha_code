@@ -17,7 +17,7 @@ public class Desafio03Exercicio03 {
         arrayInteiros = new int[]{10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
         int[] arrayAux = new int[arrayInteiros.length];
         for(int i = 0; i < arrayInteiros.length; i++){
-            arrayAux[((arrayInteiros.length-i)-1)] = arrayInteiros[i];
+            arrayAux[arrayInteiros.length-i-1] = arrayInteiros[i];
         }
         for(int i = 0; i < arrayAux.length; i++){
             System.out.println(arrayAux[i]);
