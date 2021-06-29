@@ -5,8 +5,8 @@ public class Desafio03Exercicio03 {
         int[] arrayInteiros = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
         int aux = 0;
         for(int i = 0; i < (arrayInteiros.length/2); i++){
-            aux = arrayInteiros[i]; //10
-            arrayInteiros[i] = arrayInteiros[arrayInteiros.length-i-1]; //100
+            aux = arrayInteiros[i];
+            arrayInteiros[i] = arrayInteiros[arrayInteiros.length-i-1];
             arrayInteiros[arrayInteiros.length-i-1] = aux;
         }
         for(int i = 0; i < arrayInteiros.length; i++){
