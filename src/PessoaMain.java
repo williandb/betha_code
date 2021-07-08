@@ -53,6 +53,7 @@ public class PessoaMain {
         pessoa.setAltura(1.60);
         pessoa.setPeso(70.0);
         pessoa.setDataNascimento("17/09/1984");
+        pessoa.setFiliacao("-----");
 
         JOptionPane.showMessageDialog(null,pessoa.nome + " tem seu IMC igual a "+pessoa.getIMC());
     }
