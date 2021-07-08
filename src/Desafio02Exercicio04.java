@@ -14,6 +14,6 @@ public class Desafio02Exercicio04 {
             numeroInvertido += (n % 10);
             n /= 10;
         }
-        System.out.println(numeroInvertido);
+        System.out.println(String.format("%04d",numeroInvertido));
     }
 }
