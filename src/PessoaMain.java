@@ -35,13 +35,12 @@ public class PessoaMain {
             this.dataNascimento = dataNascimento;
         }
 
-        public void setFiliação(String filiacao) {
+        public void setFiliacao(String filiacao) {
             this.filiacao = filiacao;
         }
 
         double getIMC(){
-            double imc = peso / Math.pow(altura, 2);
-            return imc;
+            return peso / Math.pow(altura, 2);
         }
     }
 
