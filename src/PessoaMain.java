@@ -39,7 +39,7 @@ public class PessoaMain {
             this.filiacao = filiacao;
         }
 
-        double getIMC(){
+        public double getIMC(){
             return peso / Math.pow(altura, 2);
         }
     }
