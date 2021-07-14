@@ -1,4 +1,4 @@
-//Desenvolva um programa que receba 10 parâmetros, inverta todas as posições e imprima o resultado.
+package Desafio03;//Desenvolva um programa que receba 10 parâmetros, inverta todas as posições e imprima o resultado.
 import java.util.Scanner;
 
 public class Desafio03Exercicio05 {

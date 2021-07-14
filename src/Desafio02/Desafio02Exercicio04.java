@@ -1,4 +1,4 @@
-/*
+package Desafio02;/*
 Desenvolva um programa que solicita ao usuário um número inteiro de no máximo 4 dígitos. Inverta esse número.
 */
 import java.util.Scanner;

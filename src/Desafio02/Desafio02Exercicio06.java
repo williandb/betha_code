@@ -1,3 +1,5 @@
+package Desafio02;
+
 /*
 Faça um programa que imprima os quadrados dos números inteiros ímpares entre 15 e 35.
 */

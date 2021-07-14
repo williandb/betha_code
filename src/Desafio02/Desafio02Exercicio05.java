@@ -1,4 +1,4 @@
-/*
+package Desafio02;/*
 Implemente um programa para calcular a área de um trapézio, onde: h = altura b = base menor B = base maior Área = (h.(b+B))/2
  */
 import java.util.Scanner;

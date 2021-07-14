@@ -1,4 +1,4 @@
-//Desenvolva um programa que calcule o IMC com telas gráficas usando JOptionPane.
+package Desafio03;//Desenvolva um programa que calcule o IMC com telas gráficas usando JOptionPane.
 import javax.swing.JOptionPane;
 
 public class Desafio03Exercicio06 {

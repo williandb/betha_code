@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="CloudAuth">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Temp/CloudAuth.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
   </library>

@@ -1,3 +1,5 @@
+package Desafio03;
+
 //Crie um programa que percorra um array de 10 posições e imprima o seu conteúdo.
 public class Desafio03Exercicio01 {
     public static void main(String[] args) {

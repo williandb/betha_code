@@ -1,3 +1,5 @@
+package Desafio03;
+
 //Faça um programa que inverta as posições de um array com 10 elementos.
 public class Desafio03Exercicio03 {
     public static void main(String[] args) {

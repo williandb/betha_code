@@ -1,4 +1,4 @@
-//import java.util.Arrays;
+package Desafio03;//import java.util.Arrays;
 
 //Escreva um programa que some todos os valores contidos em um array de inteiros e calcule a média.
 public class Desafio03Exercicio02 {

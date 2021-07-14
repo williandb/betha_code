@@ -1,4 +1,4 @@
-/*
+package Desafio02;/*
 Implemente um programa que recebe um número de 1 a 7 e imprime o dia da semana correspondente.
 */
 import java.util.Scanner;
