@@ -10,7 +10,12 @@ public class MatriculaBuilder {
     }
 
     public static void main(String[] args) {
-        Matricula matricula = criarMatricula("Funcionario");
-        matricula.setSalario(100.0);
+        Matricula matriculaFuncionario = criarMatricula("Funcionario");
+        matriculaFuncionario.setSalario(5000.0);
+        System.out.println(matriculaFuncionario.getSalario());
+
+        Matricula matriculaEstagiario = criarMatricula("Estagiario");
+        matriculaEstagiario.setSalario(1000.0);
+        System.out.println(matriculaEstagiario.getSalario());
     }
 }
