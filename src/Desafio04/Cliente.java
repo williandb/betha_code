@@ -27,11 +27,11 @@ public class Cliente extends PessoaFisica{
     }
 
     public void aumentarLimite(double valor){
-        this.limiteCrediario += valor > 0.0 ? valor : 0;
+        this.limiteCrediario += valor > 0.0 ? valor : 0.0;
     }
 
     public void reduzirLimite(double valor){
-        this.limiteCrediario -= valor > 0.0 ? valor : 0;
+        this.limiteCrediario -= valor > 0.0 ? valor : 0.0;
     }
 
     @Override
