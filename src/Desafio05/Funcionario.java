@@ -1,34 +1,32 @@
 package Desafio05;
 
 public class Funcionario {
-    private Integer id;
+
+    private int id;
     private String nome;
     private String cpf;
     private Double salarioBruto;
 
-    public Funcionario(Integer id, String nome, String cpf, Double salarioBruto) {
+    public Funcionario(int id, String nome, String cpf, Double salarioBruto) {
         this.id = id;
         this.nome = nome;
         this.cpf = cpf;
         this.salarioBruto = salarioBruto;
     }
 
-    public Funcionario(Integer id, String nome, String cpf) {
-        this.id = id;
-        this.nome = nome;
-        this.cpf = cpf;
+    public Funcionario(int id, String nome, String cpf) {
+        new Funcionario(id, nome, cpf, null);
     }
 
-    public Funcionario(Integer id, String nome) {
-        this.id = id;
-        this.nome = nome;
+    public Funcionario(int id, String nome) {
+        new Funcionario(id, nome, null);
     }
 
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
