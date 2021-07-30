@@ -1,7 +1,8 @@
 import javax.swing.JOptionPane;
 
-public class PessoaMain {
-    static class Pessoa{
+// Instrução "final" não permite que a classe seja extendida ou que métodos sejam sobrescritos
+public final class PessoaMain {
+    static  class Pessoa{
         //Criar uma classe de pessoa, com os atributos nome, cpf, rg, altura, peso, data nascimento, filiação.
         private String nome;
         private String cpf;
