@@ -2,11 +2,11 @@ package ExercicioClasseAbstrata;
 
 public abstract class Funcionario {
     private String nome;
-    private Double bonificacao;
+    private Double salario;
 
-    public Funcionario(String nome, Double bonificacao) {
+    public Funcionario(String nome, Double salario) {
         this.nome = nome;
-        this.bonificacao = bonificacao;
+        this.salario = salario;
     }
 
     public String getNome() {
@@ -17,11 +17,13 @@ public abstract class Funcionario {
         this.nome = nome;
     }
 
-    public Double getBonificacao() {
-        return bonificacao;
+    public Double getSalario() {
+        return salario;
     }
 
-    public void setBonificacao(Double bonificacao) {
-        this.bonificacao = bonificacao;
+    public abstract Double getBonificacao();
+
+    public void setSalario(Double salario) {
+        this.salario = salario;
     }
 }

@@ -6,7 +6,7 @@ public class Diretor extends Gerente{
     }
 
     @Override
-    public Double getBonificacao() {
-        return super.getBonificacao()*1.2;
+    public Double getSalario() {
+        return super.getSalario()*1.2;
     }
 }
