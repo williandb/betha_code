@@ -1,3 +1,5 @@
+package Exemplos;
+
 public class AnimalMain {
     static class Animal{
         private String nome;

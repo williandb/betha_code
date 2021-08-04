@@ -1,3 +1,5 @@
+package Exemplos;
+
 public class Matriz {
     public static void main(String[] args) {
         double matriz[][] = new double[4][4];

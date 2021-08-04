@@ -1,3 +1,5 @@
+package Exemplos;
+
 public class Corrida {
     //Estado
     static class CarroCorrida{

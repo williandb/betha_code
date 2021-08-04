@@ -1,3 +1,5 @@
+package Exemplos;
+
 import javax.swing.JOptionPane;
 
 public class Dialogo {

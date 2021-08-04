@@ -1,3 +1,5 @@
+package Exemplos;
+
 public class OrdenarArray {
     public static void main(String[] args) {
         int[] arrayInteiros = {55, 27, 33, 45, 92, 100, 3, 8, 11, 70};

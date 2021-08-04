@@ -1,3 +1,5 @@
+package Exemplos;
+
 public class ControleFluxoWhileDo {
     public static void main(String[] args){
         //Exemplo While

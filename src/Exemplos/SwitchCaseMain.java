@@ -1,3 +1,5 @@
+package Exemplos;
+
 public class SwitchCaseMain {
     public static void main(String[] args) {
         char letra = 'A';

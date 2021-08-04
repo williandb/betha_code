@@ -1,3 +1,5 @@
+package Exemplos;
+
 public class CasaMain {
     static class Casa{
         private String endereco;

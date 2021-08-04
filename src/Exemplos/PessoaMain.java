@@ -1,3 +1,5 @@
+package Exemplos;
+
 import javax.swing.JOptionPane;
 
 // Instrução "final" não permite que a classe seja extendida ou que métodos sejam sobrescritos

@@ -1,3 +1,5 @@
+package Exemplos;
+
 public class OrientacaoMain {
     static class Documento{
         String foto;
